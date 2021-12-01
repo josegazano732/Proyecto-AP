@@ -14,7 +14,7 @@
 <body>
     <h1> Este es un titulo AP </h1>
     <p>Esto es una buena practica para ir aprendiendo</p>
-    <main>
+    <main class=" container">
         <div class=" container">
             <div class="row">
                 <div class="col-6 border bg-danger">6</div>
@@ -27,6 +27,27 @@
                 <div class="col-12 col-sm-12 col-md-4 border bg-secondary">12 sm-6 md-4</div>
             </div>
         </div>
+
+        <form action="">
+            <div class=" mb-3">
+                <label for="idE" class=" form-label">Correo</label>
+                <input type="email" class=" form-control" id="idE" aria-describedby="idEH">
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+
+            <div class="mb-3 form-check">
+
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Recordarme</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+
+
     </main>
 
 
