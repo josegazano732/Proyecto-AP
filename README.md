@@ -6,7 +6,7 @@ Prcaticas GitHub
 * Utiliza las clases border-0, border-top-0, border-right-0, border-bottom-0 y border-left-0 para remover bordes de tus elementos.
 * Para mostrar una imagen dentro de un círculo utiliza la clase rounded-circle. Asegúrate que la imagen sea cuadrada.
  
- [Enlace] (https://getbootstrap.com/docs/4.0/utilities/borders/)
+ [Enlace](https://getbootstrap.com/docs/4.0/utilities/borders/)
 
   # ESPACIOS
  
@@ -33,6 +33,6 @@ Prcaticas GitHub
  
 * También puedes agregar sm, md, lg y xl para controlar en qué tipos de pantalla se aplica el margin o el padding. Por ejemplo: mt-md-5 sólo agregaría el margen superior de 3rem para tablets o superior.
  
- [Enlace] (https://getbootstrap.com/docs/4.0/utilities/spacing/)
+ [Enlace](https://getbootstrap.com/docs/4.0/utilities/spacing/)
 
 # Display 
