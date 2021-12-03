@@ -41,9 +41,18 @@ Puedes controlar **display** de un elemento utilizando las clases de **d-none,d-
 
 Tambien puedes controlar en que tipos de pantalla se aplica el display agregando **sm,md,lg,y xl.** Por ejmplo **d-md-none** aplicaria **display: none** a tabletas o pantallas mas grandes ( **lg** y **xl**).
 
-## Ejemplo : imagen
+## Ejemplo : imagen 1
+d-inline
 
 <img src="/img/display-inline.jpg">
+
+## Ejemplo : imagen 2
+d-block
+
+<img src="/img/display-block.jpg">
+
+
+
 
 
 [Enlace](https://getbootstrap.com/docs/4.0/utilities/display/)
