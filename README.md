@@ -36,3 +36,12 @@ Prcaticas GitHub
  [Enlace](https://getbootstrap.com/docs/4.0/utilities/spacing/)
 
 # Display 
+
+Puedes controlar **display** de un elemento utilizando las clases de **d-none,d-inline,d-block y d-flex** (existen otros pero estos son los mas comunes).
+
+Tambien puedes controlar en que tipos de pantalla se aplica el display agregando **sm,md,lg,y xl.** Por ejmplo **d-md-none** aplicaria **display: none** a tabletas o pantallas mas grandes ( **lg** y **xl**).
+
+<img src="/img/display-inline.jpg">
+
+
+[Enlace](https://getbootstrap.com/docs/4.0/utilities/display/)
