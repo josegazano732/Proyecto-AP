@@ -51,8 +51,24 @@ d-block
 
 <img src="/img/display-block.jpg">
 
-
-
-
-
 [Enlace](https://getbootstrap.com/docs/4.0/utilities/display/)
+
+# TEXTO 
+
+Para alinear el texto utiliza las clases **text-left, text-center, text-right y text-justify**. También 
+puedes controlar en qué tipos de pantalla se aplica la alineación. Por ejemplo, **text-md-center** va a centrar el texto a tabletas o pantallas más grandes (lg y xl)
+
+Utiliza las clases text-lowercase, **text-uppercase y text-capitalize** para transformar el texto en 
+minúscula, mayúscula y capitalizado, respectivamente.
+
+Por último, existen las clases **font-weight-bold, font-weight-normal, font-weight-light y font-italic**.
+
+[Enlace](https://getbootstrap.com/docs/4.0/utilities/text/)
+
+# FLEXBOX
+
+**d-flex** Para aplicar Flexbox a un elemento utiliza la clase d-flex.
+**flex-row, flex-row-reverse, flex-column y flex-column-reverse** Para controlar la dirección del texto
+Para controlar la propiedad **justify-content**
+**justify-content-start,ustify-content-end,justify-content-center,justify-content-between** y **justify-content-around**
+
