@@ -72,3 +72,15 @@ Por último, existen las clases **font-weight-bold, font-weight-normal, font-wei
 Para controlar la propiedad **justify-content**
 **justify-content-start,ustify-content-end,justify-content-center,justify-content-between** y **justify-content-around**
 
+
+<hr>
+
+# JAVASCRIPT 
+
+<h3>Operador condicional ternario<h3>
+
+El operador condicional es el único operador de JavaScript que necesita tres operadores. El operador asigna uno de dos valores basado en una condición. 
+
+La sintaxis de este operador es: condición? valor1: valor2. Si la condición es verdadera, el operador tomará el valor 1, de lo contrario tomará el valor 2. 
+
+""" var estado = (edad> = 18)? "adulto": "menor"; """
