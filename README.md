@@ -130,3 +130,12 @@ La declaracion de una funcion consiste en:
 - Un nombre.
 - Una lista de parámetros o argumentos encerrados entre paréntesis.
 - Conjunto de sentencias JavaScript encerradas entre llaves.
+```
+  function suma(x, y) {
+  //"x" e "y" son números
+  // Suma "x" e "y" juntos y devuelve el valor
+  // Tu código:
+  return (x + y);
+  }
+```
+
