@@ -1,14 +1,20 @@
 # Proyecto-AP
 Prcaticas GitHub
+<hr>
 
-  # BORDES
+# Bootstrap
+
+<hr>
+
+
+  <h3>BORDES<h3>
 * Utiliza las clases **border, border-top, border-right, border-bottom y border-left** para agregar bordes a tus elementos.
 * Utiliza las clases border-0, border-top-0, border-right-0, border-bottom-0 y border-left-0 para remover bordes de tus elementos.
 * Para mostrar una imagen dentro de un círculo utiliza la clase rounded-circle. Asegúrate que la imagen sea cuadrada.
  
  [Enlace](https://getbootstrap.com/docs/4.0/utilities/borders/)
 
-  # ESPACIOS
+<h3>ESPACIOS<h3>
  
  * Puedes utilizar clases para controlar el margin y padding de tus elementos de forma responsive.
  Las clases que controlan el margin y padding empiezan con m y las que controlan el padding comienzan con p. 
@@ -35,7 +41,7 @@ Prcaticas GitHub
  
  [Enlace](https://getbootstrap.com/docs/4.0/utilities/spacing/)
 
-# Display 
+<h3>DISPLAY<h3>
 
 Puedes controlar **display** de un elemento utilizando las clases de **d-none,d-inline,d-block y d-flex** (existen otros pero estos son los mas comunes).
 
@@ -53,7 +59,7 @@ d-block
 
 [Enlace](https://getbootstrap.com/docs/4.0/utilities/display/)
 
-# TEXTO 
+<h3>TEXTO<h3>
 
 Para alinear el texto utiliza las clases **text-left, text-center, text-right y text-justify**. También 
 puedes controlar en qué tipos de pantalla se aplica la alineación. Por ejemplo, **text-md-center** va a centrar el texto a tabletas o pantallas más grandes (lg y xl)
@@ -65,7 +71,7 @@ Por último, existen las clases **font-weight-bold, font-weight-normal, font-wei
 
 [Enlace](https://getbootstrap.com/docs/4.0/utilities/text/)
 
-# FLEXBOX
+<h3>FLEXBOX<h3>
 
 **d-flex** Para aplicar Flexbox a un elemento utiliza la clase d-flex.
 **flex-row, flex-row-reverse, flex-column y flex-column-reverse** Para controlar la dirección del texto
@@ -76,6 +82,7 @@ Para controlar la propiedad **justify-content**
 <hr>
 
 # JAVASCRIPT 
+<hr>
 
 <h3>Operador condicional ternario<h3>
 
@@ -83,4 +90,43 @@ El operador condicional es el único operador de JavaScript que necesita tres op
 
 La sintaxis de este operador es: condición? valor1: valor2. Si la condición es verdadera, el operador tomará el valor 1, de lo contrario tomará el valor 2. 
 
-""" var estado = (edad> = 18)? "adulto": "menor"; """
+``var estado = (edad> = 18)? "adulto": "menor";``
+
+<h2>Funciones y estructuras<h2>
+
+### SWITCH:
+Una sentencia switch permite a un programa evaluar una expresión e intentar igualar el valor de dicha expresión a una etiqueta de caso (case). Si se encuentra una coincidencia, el programa ejecuta la sentencia asociada. Una sentencia switch se describe como se muestra a continuación:
+
+EJEMPLO: La función recibe un color. Devolver el string correspondiente:
+  En caso que el color recibido sea "blue", devuleve --> "This is blue"
+  En caso que el color recibido sea "red", devuleve --> "This is red"
+  En caso que el color recibido sea "green", devuleve --> "This is green"
+  En caso que el color recibido sea "orange", devuleve --> "This is orange"
+  Caso default: devuelve --> "Color not found"
+  Usar el statement Switch.
+
+```
+      function colors(color) {
+      switch(color) {
+      case "blue":
+        return "This is blue";
+      case "red": 
+        return "This is red";
+      case "green":
+        return "This is green";
+      case "orange":
+        return "This is orange";
+      default: 
+      return "Color not found";
+        }
+      }
+```   
+Primero busca una cláusula case con una etiqueta que coincide con el valor de la expresión y entonces, transfiere el control a esa cláusula, ejecutando las sentencias asociadas a ella. Si no se encuentran etiquetas coincidentes, busca la cláusula opcional predeterminada y transfiere el control a esa cláusula ejecutando las sentencias asociadas. Si no se encuentra la cláusula predeterminada, el programa continúa su ejecución por la siguiente sentencia al final del switch. Por convención la cláusula por defecto es la última cláusula aunque no es necesario que sea así.
+
+La sentencia opcional break asociada con cada cláusula case asegura que el programa finaliza la sentencia switch una vez que la sentencia asociada a la etiqueta coincidente es ejecutada y continúa la ejecución por las sentencias siguientes a la sentencia switch. Si se omite la sentencia break, el programa continúa su ejecución por la siguiente sentencia que haya en la sentencia switch.
+
+La declaracion de una funcion consiste en:
+
+- Un nombre.
+- Una lista de parámetros o argumentos encerrados entre paréntesis.
+- Conjunto de sentencias JavaScript encerradas entre llaves.
