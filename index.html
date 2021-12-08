@@ -13,7 +13,7 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 
-<body class="m-0">
+<body class="bg-light">
     <header class=" container-fluid bg-dark fixed-top">
         <div class="">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark container">
@@ -32,9 +32,9 @@
                         aria-label="Navegación de palanca"> <span class="navbar-toggler-icon"></span> </button>
                     <div class=" collapse navbar-collapse d-flex justify-content-end m-1" id="">
                         <div class=" navbar-nav m-1" id="navbarColor01">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            <a class="nav-link" href="#">Features</a>
-                            <a class="nav-link" href="#">Pricing</a>
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                            <a class="nav-link" href="#">Nosotros</a>
+                            <a class="nav-link" href="#">Historia</a>
                             <a class="nav-link">Disabled</a>
                         </div>
                         <div>
@@ -59,62 +59,90 @@
 
     <h1 class=" text-center m-3"> Este es un titulo AP </h1>
     <p class=" text-center">Esto es una buena practica para ir aprendiendo como trabajar con columnas y break-point</p>
-    <main class=" container-fluid">
-        <div class=" container">
+    <hr class=" container">
+
+    <main class=" container-fluid ">
+
+
+
+        <div class="container d-flex justify-content-center ">
             <div class="row">
-                <div class="col-6 border bg-danger">
-                    <div class="row d-flex">
-                        <div class="col-12 col-sm-6 bg-primary border text-center p-1">
-                            <h3 class=" text-light fs-1">Esto es un titulo</h3>
-                            <p class=" text-light text-lg-start">Lorem, ipsum dolor sit amet consectetur adipisicing
-                                elit.
-                                Aspernatur cumque deleniti,
-                                dicta totam fugit sapiente provident illum doloremque minima ratione sed. Autem
-                                provident consequuntur, saepe est tempora facilis placeat nam.</p>
+                <div class="col m-4">
+                    <div class="card text-white bg-primary mb-3 " style="max-width: 18rem;">
+                        <div class="card-header">Header</div>
+                        <div class="card-body">
+                            <h5 class="card-title">Primary card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
                         </div>
-                        <div class="col-12 col-sm-6 bg-success border text-center p-1">2</div>
                     </div>
                 </div>
-                <div class="col-3 border bg-gradient">3</div>
-                <div class="col-3 border bg-dark">3</div>
-            </div>
 
-            <div class="row">
-                <div class="col-12 col-sm-6 col-md-4 border bg-success">12 sm-6 md-4</div>
-                <div class="col-12 col-sm-6 col-md-4 border bg-primary">12 sm-6 md-4</div>
-                <div class="col-12 col-sm-12 col-md-4 border bg-secondary">12 sm-6 md-4</div>
-            </div>
-        </div>
-
-
-        <div class=" container">
-            <div class=" row d-flex ">
-                <div class=" col-12 col-sm-12 col-md-8 col-lg-6">
-                    <form action="">
-                        <h3 class=" text-center m-3">FORMULARIO</h3>
-                        <fieldset class=" border border-secondary p-3 mb-1">
-                            <div class=" mb-3">
-                                <label for="idE" class=" form-label">Correo</label>
-                                <input type="email" class=" form-control" id="idE" aria-describedby="idEH">
-                            </div>
-
-                            <div class="mb-3">
-                                <label for="exampleInputPassword1" class="form-label">Password</label>
-                                <input type="password" class="form-control" id="exampleInputPassword1">
-                            </div>
-
-                            <div class="mb-3 form-check">
-
-                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                <label class="form-check-label" for="exampleCheck1">Recordarme</label>
-                            </div>
-                            <button type="submit" class="btn btn-primary">Enviar</button>
-                        </fieldset>
-                    </form>
+                <div class="col m-4">
+                    <div class="card text-dark bg-light mb-3 " style="max-width: 18rem;">
+                        <div class="card-header">Header</div>
+                        <div class="card-body">
+                            <h5 class="card-title">Primary card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
                 </div>
 
+                <div class="col m-4">
+                    <div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">
+                        <div class="card-header">Header</div>
+                        <div class="card-body">
+                            <h5 class="card-title">Secondary card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+
+
+
+        <div class="container d-flex justify-content-center ">
+            <div class="row">
+                <div class="col m-4">
+                    <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
+                        <div class="card-header">Header</div>
+                        <div class="card-body">
+                            <h5 class="card-title">Success card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col m-4">
+                    <div class="card text-dark bg-info mb-3" style="max-width: 18rem;">
+                        <div class="card-header">Header</div>
+                        <div class="card-body">
+                            <h5 class="card-title">Success card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col m-4">
+                    <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
+                        <div class="card-header">Header</div>
+                        <div class="card-body">
+                            <h5 class="card-title">Danger card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
 
 
     </main>
@@ -123,7 +151,7 @@
 
 
 
-    <footer class=" container-fluid bg-black m-0 text-center text-white h-auto">
+    <footer class=" container-fluid bg-dark mt-5 text-center text-white h-auto">
         <h3 class=" ">Esto es un footer</h3>
     </footer>
 

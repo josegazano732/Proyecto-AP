@@ -140,4 +140,17 @@ La declaracion de una funcion consiste en:
   return (x + y);
   }
 ```
+<h2>Estructuras repetitivas<h2>
 
+- for
+- while
+- do while
+
+## SENTENCIA FOR
+
+Un bucle for se repite hasta que la condición especificada se evalúa como falsa. 
+```
+  for([expresion-inicial];[condicion];[expresion-final]){
+  // codigo a ser ejecutado;
+  }
+```
