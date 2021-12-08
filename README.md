@@ -154,3 +154,58 @@ Un bucle for se repite hasta que la condición especificada se evalúa como fals
   // codigo a ser ejecutado;
   }
 ```
+Cuando un bucle for se ejecuta, ocurre lo siguiente: la [expresión-inicial], si existe, se ejecuta. Esta expresión habitualmente inicializa uno o más contadores del bucle, pero la sintaxis permite una expresión con cualquier grado de complejidad. Esta expresión puede también declarar variables. Se evalúa la expresión [condición]. Si el valor de condición es true, se ejecuta la sentencia del bucle. Si el valor de condición es falso, el bucle para, finaliza. Si la expresión condición es omitida, la condición es asumida como verdadera. Se ejecuta la expresión [expresión-final], si hay una, y el control vuelve a evaluar la expresión [condición].
+
+El ejemplo a continuación muestra un ciclo que se ejecuta 10 veces e imprime por consola la expresión “Número: X” donde x va del valor 0 al 10
+
+```
+      for (let i = 0; i <= 10; i++) {
+       console.log("Numero " + i);
+
+      }
+
+
+      var dias = ["lunes", "martes", "miercoles", "jueves", "viernes", "sabado"]
+      for (i = 0; i <= dias.length - 1; i++) {
+      console.log(dias[i]);
+      }
+
+lunes
+martes
+miercoles
+jueves
+viernes
+sabado
+
+```
+## SENTENCIA WHILE (mientras)
+
+Una sentencia while ejecuta sus sentencias mientras la condición sea como verdadera. Una sentencia while tiene el siguiente aspecto:
+
+```
+   var i = 0
+   while (i <= 10) {
+   console.log("esto es un while " + i);
+   i++;
+}
+
+```
+Si la condición cambia a falsa, la sentencia dentro del bucle deja de ejecutarse y el control pasa a la sentencia inmediatamente después del bucle. La condición se evalúa antes de que la sentencia contenida en el bucle sea ejecutada. Si la condición devuelve verdadero, la sentencia se ejecuta y la condición se comprueba de nuevo. Si la condición es como falso, se detiene la ejecución y el control pasa a la sentencia siguiente al while.
+
+## SENTENCIA DO WHILE (hasta)
+
+Se utiliza para repetir instrucciones un número indefinido de veces, hasta que se cumpla una condición. A diferencia de la estructura mientras (while), la estructura hasta (do while) se ejecutará al menos una vez. Ejemplo:
+
+
+
+## BUSQUEDA EN JAVASCRIPT
+
+Existen diferentes métodos que se pueden usar en JavaScript para buscar elementos dentro de un arreglo. El método a elegir depende del caso de uso particular, por ejemplo:
+
+- Obtener todos los elementos del arreglo que cumplen una condición específica. (Filter)
+- Obtener al menos uno de los elementos del arreglo que cumple dicha condición. (Find)
+- Obtener si un valor específico es parte del arreglo (Includes).
+- Obtener el índice de un valor específico (IndexOf).
+
+<h3>Array.filter()<h3>
+

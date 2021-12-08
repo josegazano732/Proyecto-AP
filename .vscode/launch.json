@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "pwa-chrome",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "pwa-chrome",
+            "name": "http://127.0.0.1:5500/javascript.html",
+            "request": "launch",
+            "url": "http://127.0.0.1:5500/javascript.html"
+        }
+    ]
+}
