@@ -208,4 +208,82 @@ Existen diferentes métodos que se pueden usar en JavaScript para buscar element
 - Obtener el índice de un valor específico (IndexOf).
 
 <h3>Array.filter()<h3>
+Podemos usar el método Array.filter() para encontrar los elementos dentro de un arreglo que cumplan con cierta condición. Por ejemplo, si queremos obtener todos los elementos de un arreglo de números que sean mayores a 10, podemos hacer lo siguiente:
 
+## Ejemplo Nro 1: "Filtra los nros que son resto de 2"
+
+```
+    let arreglo = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14];
+    let resultado = arreglo.filter(x => x % 2 === 0);
+    
+    console.log(resultado);
+
+```
+## Ejemplo Nro 2 : "Filtra los string que son mayor a 3 en su longitud"
+```
+   let nombres = ["Jose", "Juan", "Manu", "Hugo", "Ana"];
+   let resultado = nombres.filter(x => x.length > 3);
+
+   console.log(resultado);
+
+```
+
+## Ejemplo Nro 3 : "Filtra nros mayor o igual a 10"
+
+```
+   let arreglo = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14];
+   let resultado = arreglo.filter(x => x >= 10);
+
+   consol.log(resultado);
+
+```
+## Ejemplo Nro 4 : " Filtrar segun Nombre"
+
+```
+let personas = [{ Nombre: "Jose", Edad: 35 }, { Nombre: "Juan", Edad: 48 }, { Nombre: "Hugo", Edad: 38 }];
+let resultado = personas.filter(x => x.Nombre === "Jose");
+
+console.log(resultado);
+
+```
+## Ejemplo Nro 5: "Filtrar segun edad mayor 36"
+
+```
+   let personas = [{ Nombre: "Jose", Edad: 35 }, { Nombre: "Juan", Edad: 48 }, { Nombre: "Hugo", Edad: 38 }];
+   let resultado = personas.filter(x => x.Edad >= 36);
+
+   console.log(resultado);
+
+```
+
+<h3>Array.find()<h3>
+Usamos el método Array.find() para encontrar el primer elemento que cumple cierta condición. Tal como el método anterior, toma un Callback como argumento y devuelve el primer elemento que cumpla la condición establecida. Usemos el método find en el arreglo del ejemplo anterior.
+
+## Ejemplo Nro 1 :
+
+
+```
+   let personas = [{ Nombre: "Jose", Edad: 35 }, { Nombre: "Juan", Edad: 48 }, { Nombre: "Hugo", Edad: 38 }];
+   let resultado = personas.find(x => x.Edad >= 36);
+
+   console.log(resultado);
+
+   En este caso devuelve : { Nombre: "Juan", Edad: 48 } que es el primero en l lista.
+
+
+
+```
+
+<h3>Array.includes()<h3>
+
+El método includes() determina si un arreglo incluye un valor específico y devuelve verdadero o falso según corresponda. En el ejemplo anterior, si queremos revisar si 20 es uno de los elementos del arreglo, podemos hacer lo siguiente:
+
+## Ejemplo Nro 1:
+
+```
+   let arreglo = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14];
+   let resultado = arreglo.includes(9);
+
+   console.log(resultado);
+
+```

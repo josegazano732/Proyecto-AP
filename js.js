@@ -27,6 +27,19 @@ while (i <= numeroDias) {
     i++;
 }
 
-let arreglo = [10, 11, 3, 20, 5];
-let mayorQueDiez = arreglo.filter(element => element > 10);
+let arreglo = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14];
+//let nombres = ["Jose", "Juan", "Manu", "Hugo", "Ana"];
+//let personas = [{ Nombre: "Jose", Edad: 35 }, { Nombre: "Juan", Edad: 30 }, { Nombre: "Hugo", Edad: 38 }];
+
+//let resultado = personas.find(x => x.Edad >= 36);
+
+//let resultado = nombres.filter(x => x.length > 3);"Filtra los string que son mayo a 3 en su longitud"
+let resultado = arreglo.includes(9); "Filtra nros mayor o igual a 10"
+//let resultado = arreglo.filter(x => x % 2 === 0); "Filtra los nros que son resto de 2"
+
+//function funcion(value) {
+//  return value % 3 === 0;
+//}
+
+console.log(resultado);
 
