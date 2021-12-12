@@ -8,18 +8,19 @@ Prcaticas GitHub
 
 
 <h3>BORDES<h3>
-*Utiliza las clases **border, border-top, border-right, border-bottom y border-left** para agregar bordes a tus elementos.
 
-*Utiliza las clases border-0, border-top-0, border-right-0, border-bottom-0 y border-left-0 para remover bordes de tus elementos.
+* Utiliza las clases **border,border-top,border-right,border-bottom y border-left** para agregar bordes a tus elementos.
 
-*Para mostrar una imagen dentro de un círculo utiliza la clase rounded-circle. Asegúrate que la imagen sea cuadrada.
+* Utiliza las clases **border-0, border-top-0, border-right-0, border-bottom-0 y border-left-0** para remover bordes de tus elementos.
+
+* Para mostrar una imagen dentro de un círculo utiliza la clase **rounded-circle**. Asegúrate que la imagen sea cuadrada.
  
  [Enlace](https://getbootstrap.com/docs/4.0/utilities/borders/)
 
 <h3>ESPACIOS<h3>
  
  * Puedes utilizar clases para controlar el margin y padding de tus elementos de forma responsive.
- Las clases que controlan el margin y padding empiezan con m y las que controlan el padding comienzan con p. 
+ Las clases que controlan el margin y padding empiezan con **m** y las que controlan el padding comienzan con **p**. 
  Por defecto existen 6 tamaños para los espacios: 0 a 5 son los siguientes valores.
 
  * 0 - eliminar el margin o el padding.
@@ -328,3 +329,21 @@ La búsqueda secuencial se define como la búsqueda en la que se compara element
    console.log(busquedaSecuencial("f", letras)); // Resultado seria 5 .
 
 ```
+<h1>Ordenamiento </h1>
+Javascript provee un método que ordena los elementos de un arreglo localmente y devuelve el arreglo ordenado Array.prototype.sort([compareFunction(a, b)]). El modo de ordenación por defecto responde a la posición del valor del string de acuerdo a su valor en el juego de caracteres Unicode. Cuando se utiliza el método sort(), los elementos se ordenarán en orden ascendente (de la A a la Z) por defecto:
+
+## Esto es un ejemplo:
+```
+   let listadoNro = ["Posadas", "Obera", "Apostoles", "Concepcion", "Alem"];
+   console.log(listadoNro.sort());
+
+   // Como resultado obtenemos los siguiente:
+   //[ 'Alem', 'Apostoles', 'Concepcion', 'Obera', 'posadas' ]
+
+```
+<hr>
+
+# DOM, que es?
+"El Modelo de Objetos de Documento [DOM](https://www.w3.org/2005/03/DOM3Core-es/introduccion.html) del W3C es una plataforma e interfaz de lenguaje neutro que permite a los programas y scripts acceder y actualizar dinámicamente el contenido, la estructura y el estilo de un documento"
+
+
