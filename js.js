@@ -44,3 +44,28 @@ let resultado = personas.find(x => x.Edad >= 36);
 
 console.log(resultado);
 
+// Ejemplo esto es funcion Math.max y min
+let listaNumero = Math.min(2, 15, 94, 54, 46, 32);
+console.log(listaNumero);
+
+
+// Ejemplo Busqueda secuencial
+
+var letras = ["a", "b", "c", "d", "e", "f"];
+function busquedaSecuencial(elemento, lista) {
+    for (var x in lista) {
+        if (lista[x] == elemento)
+            return x;
+    }
+    return -1;
+}
+console.log(busquedaSecuencial("f", letras));
+
+function sequentialSearch(element, array) {
+    for (var i in array) {
+        if (array[i] == element) return i;
+    }
+    return -1;
+}
+var letters = ["a", "b", "c", "d", "f", "g", "h", "i", "j", "k", "l", "m", "n"];
+console.log(sequentialSearch("g", letters));

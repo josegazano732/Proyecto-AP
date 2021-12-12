@@ -287,3 +287,44 @@ El método includes() determina si un arreglo incluye un valor específico y dev
    console.log(resultado);
 
 ```
+
+<h1>Buedqueda de Maximos y minimos</h1>
+
+Uno de los problemas académicos más comunes es el de la búsqueda del valor máximo o mínimo dentro de una lista. JavaScript dispone de las funciones Math.max() y Math.min() con las que es posible obtener el máximo y mínimo respectivamente de un conjunto de números, por ejemplo: 
+
+```
+    Math.max(1, 2, 3, 4, 5); // resultado esperado: 5
+
+    Math.min(1, 2, 3, 4, 5); // resultado esperado: 1
+
+```
+
+## Esto es un ejemplo:
+
+```
+   let listaNumero = Math.max(2, 15, 94, 54, 46, 32); 
+   console.log(listaNumero);  // resultado esperado es 94.
+
+   let listaNumero = Math.min(2, 15, 94, 54, 46, 32);
+   console.log(listaNumero); // resultado esperado es 2.
+
+```
+
+<h1>Buesqueda secuencial</h1>
+La búsqueda secuencial se define como la búsqueda en la que se compara elemento por elemento del vector/array con el valor que buscamos. Es decir, un clásico recorrido secuencial (for).
+
+## Un ejemplo:
+
+
+```
+   var letras = ["a", "b", "c", "d", "e", "f"];
+   function busquedaSecuencial(elemento, lista) {
+    for (var x in lista) {
+        if (lista[x] == elemento)
+            return x;
+    }
+    return -1;
+   }
+   console.log(busquedaSecuencial("f", letras)); // Resultado seria 5 .
+
+```
