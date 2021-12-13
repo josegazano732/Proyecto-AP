@@ -347,3 +347,4 @@ Javascript provee un método que ordena los elementos de un arreglo localmente y
 "El Modelo de Objetos de Documento [DOM](https://www.w3.org/2005/03/DOM3Core-es/introduccion.html) del W3C es una plataforma e interfaz de lenguaje neutro que permite a los programas y scripts acceder y actualizar dinámicamente el contenido, la estructura y el estilo de un documento"
 
 
+<img src="/img/imagen4Dom.jpg">
