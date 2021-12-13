@@ -311,7 +311,7 @@ Uno de los problemas académicos más comunes es el de la búsqueda del valor m�
 
 ```
 
-<h1>Buesqueda secuencial</h1>
+<h1>Busqueda secuencial</h1>
 La búsqueda secuencial se define como la búsqueda en la que se compara elemento por elemento del vector/array con el valor que buscamos. Es decir, un clásico recorrido secuencial (for).
 
 ## Un ejemplo:
@@ -348,3 +348,56 @@ Javascript provee un método que ordena los elementos de un arreglo localmente y
 
 
 <img src="/img/imagen4Dom.jpg">
+
+<h3>Tipos de nodos:</h3>
+
+- **Document:** nodo raiz del que derivan todos los demas nodos del arbol.
+- **Element:** representa cada una de las etiquetas **HTML**. Se trata del unico nodo que puede contener atributos y el unico del que pueden derivar otros nodos.
+- **Attr:** se define un nodo de este tipo para representar cada uno de los atributos de las etiquetas **HTML**, es decir,uno por cada par de atributo = valor.
+- **Text:** nodo que contiene el texto encerrado por una etiqueta **HTML**.
+
+
+**Nota:** Document representa la página web, por ende, para acceder a cualquier elemento de una web, se debe primero acceder a document.
+
+<h3>Metodos</h3>
+Los métodos son acciones que se pueden realizar a los elementos HTML mediante DOM.
+
+* Encontrar elementos **HTML** por **ID** (**getElementById**).
+* Econtrar elementos **HTML** por nombre de **ETIQUETA** (**getElementByTagName**).
+* Encontrar elementos **HTML** por nombre de **CLASE** (**getElementByClassName**).
+* Encontrar elementos **HTML** mediante selectores **CSS** (**querySelectorAll**).
+
+Este ejemplo encuentra el elemento con **id="intro"**:
+
+```
+   const element = document.getElementById("intro");
+
+```
+Este ejemplo encuentra todos los **<p>** elementos:
+
+```
+   const element = document.getElementsByTagName("p");
+
+```
+Este ejemplo devuelve una lista de todos los elementos con **class="intro"**.
+
+```
+   const x = document.getElementsByClassName("intro");
+
+```
+Este ejemplo devuelve una lista de todos los elementos  **<p>** con **class="intro"**.
+
+```
+   const x = document.querySelectorAll("p.intro");
+
+```
+
+<h3>Elementos</h3>
+Los elementos del DOM pueden ser creados, modificados o eliminados. A continuación veremos las principales acciones que se pueden realizar.
+
+## Cambiar elementos HTML
+<img src="/img/cambiarElementosHTML.png">
+
+## Agregar y eliminar elementos:
+<img src="/img/AgregarEliminarElementos.png">
+
