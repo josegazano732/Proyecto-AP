@@ -69,9 +69,10 @@ console.log(listadoNro.sort());
 
 // Ejemplo manipular elementos del DOM:
 
-function agregarElemento() {
-    let elementoId = document.getElementById("elementoUno"); // se obtiene elemento ID de HTML.
-    let crearDiv = document.createElement("div.p=Hla mindo"); // Se crea un nuevo elemento DIV.
-    elementoId.appendChild(crearDiv); // Se agrega el nuevo elemento DIV.
-}
+
+let elementoId = document.getElementById("elementoUno"); // se obtiene elemento ID de HTML.
+let crearDiv = document.createElement("div"); // Se crea un nuevo elemento DIV.
+elementoId.appendChild(crearDiv); // Se agrega el nuevo elemento DIV.
+let elementoParrafo = document.createElement("p");
+
 
