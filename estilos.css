@@ -5,3 +5,30 @@
     height: 550px;
     
 }
+
+.texto-1 {
+    font-family: 'Parisienne', cursive;
+}
+
+.texto-3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.contenedor-imagen {
+    margin-top: -3rem;
+}
+
+.imagen-foto {
+    border-radius: 50%;
+    border-image-outset: 2rem;
+    
+}
+
+.nombre-titulo-perfil-ft {
+    margin-top: -3rem;
+    
+}
+
+.nombre-titulo {
+    margin-right: ;
+}
