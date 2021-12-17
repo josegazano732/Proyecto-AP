@@ -53,12 +53,12 @@ Tambien puedes controlar en que tipos de pantalla se aplica el display agregando
 ## Ejemplo : imagen 1
 d-inline
 
-<img src="/img/display-inline.jpg">
+<img src="img/display-inline.jpg">
 
 ## Ejemplo : imagen 2
 d-block
 
-<img src="/img/display-block.jpg">
+<img src="img/display-block.jpg">
 
 [Enlace](https://getbootstrap.com/docs/4.0/utilities/display/)
 
@@ -347,7 +347,7 @@ Javascript provee un método que ordena los elementos de un arreglo localmente y
 "El Modelo de Objetos de Documento [DOM](https://www.w3.org/2005/03/DOM3Core-es/introduccion.html) del W3C es una plataforma e interfaz de lenguaje neutro que permite a los programas y scripts acceder y actualizar dinámicamente el contenido, la estructura y el estilo de un documento"
 
 
-<img src="/img/imagen4Dom.jpg">
+<img src="img/imagen4Dom.jpg">
 
 <h3>Tipos de nodos:</h3>
 
@@ -396,8 +396,8 @@ Este ejemplo devuelve una lista de todos los elementos  **<p>** con **class="int
 Los elementos del DOM pueden ser creados, modificados o eliminados. A continuación veremos las principales acciones que se pueden realizar.
 
 ## Cambiar elementos HTML
-<img src="/img/cambiarElementosHTML.png">
+<img src="img/cambiarElementosHTML.png">
 
 ## Agregar y eliminar elementos:
-<img src="/img/AgregarEliminarElementos.png">
+<img src="img/AgregarEliminarElementos.png">
 
