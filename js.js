@@ -1,4 +1,4 @@
-
+/*
 function saludar() {
     document.getElementById("titulo").innerHTML = "Buenos dias Estudiantes!";
 }
@@ -74,5 +74,16 @@ let elementoId = document.getElementById("elementoUno"); // se obtiene elemento 
 let crearDiv = document.createElement("div"); // Se crea un nuevo elemento DIV.
 elementoId.appendChild(crearDiv); // Se agrega el nuevo elemento DIV.
 let elementoParrafo = document.createElement("p");
+*/
+
+// --------------------------------------------------------
+let titulo = document.getElementById("encabezado");
+titulo.style.color = "white";
 
 
+let contenido = document.getElementById("concepto");
+//console.log(contenido.innerHTML);
+
+let textos = document.getElementsByTagName("p");
+textos[0].style.textAlign = "right";
+//console.log(textos[3].innerHTML);
