@@ -401,3 +401,42 @@ Los elementos del DOM pueden ser creados, modificados o eliminados. A continuaci
 ## Agregar y eliminar elementos:
 <img src="img/AgregarEliminarElementos.png">
 
+## Acceder al DOM
+
+Esto es un ejemplo de como acceder al DOM:
+Accede a traves con un **querySelector** al **ID** "#concepto" y modifica con **textContent** su contenido o parrafo.
+
+```
+   document.querySelector("#concepto").textContent = "Este es mi nuevo texto" ;
+```
+
+- Acceder al "head"
+```
+   console.log(document.head);
+```
+- Acceder al "body"
+```
+   console.log(document.body);
+```
+- Acceder a un elemento por su ID.
+```
+console.log(document.getElementById("encabezado"));
+```
+- Acceder a elemento por su ID con querySelector.
+```
+   console.log(document.querySelector("#concepto"));
+```
+- Acceder a un elemento por su clase con querySelector.
+```
+   console.log(document.querySelector(".caracteristicas"));
+```
+- Acceder a un elemento por su propio nombre Ejemplo: "section".
+```
+console.log(document.querySelector("section"));
+```
+- Acceder a todos los elemento segun nombre de elemento Ejemplo: un "div".
+```
+console.log(document.querySelectorAll("div"));
+```
+
+

@@ -87,3 +87,28 @@ let contenido = document.getElementById("concepto");
 let textos = document.getElementsByTagName("p");
 textos[0].style.textAlign = "right";
 //console.log(textos[3].innerHTML);
+
+
+// Ej. toma elemento concepto por su id y modifica su contenido.//
+document.querySelector("#concepto").textContent = "Este es mi nuevo texto"
+
+//Se accede al head
+//console.log(document.head);
+
+//Se accede al body
+console.log(document.body);
+
+//Se accede a un elemento por su ID.
+console.log(document.getElementById("encabezado"));
+
+//Se accede a su elemento por su ID con querySelector.
+console.log(document.querySelector("#concepto"));
+
+//Se accede a su elemento por su CLASE.
+console.log(document.querySelector(".caracteristicas"));
+
+//Se accede a un elemento por su propio nombre ejemplo "section".
+console.log(document.querySelector("section"));
+
+//Se accede a todos los elementos 
+console.log(document.querySelectorAll("div"));
