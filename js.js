@@ -112,3 +112,9 @@ console.log(document.querySelector("section"));
 
 //Se accede a todos los elementos 
 console.log(document.querySelectorAll("div"));
+
+
+/* Elementos */
+//Se accede a elemento y se modifica.
+let mitexto = document.querySelector(".mi-texto");
+mitexto.textContent = "Esto es un parrafo modificado en js a traves de un querySelector al elemento p con clase (mi-texto) ";

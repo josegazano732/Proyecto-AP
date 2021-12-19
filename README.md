@@ -439,4 +439,9 @@ console.log(document.querySelector("section"));
 console.log(document.querySelectorAll("div"));
 ```
 
+## Elemento
+
+Una vez que accedemos al elemento podemos modificarlo: en el siguiente caso accedemos a elemento
+con **querySelector** modificando contenido de un elemento "p" a traves de la clase ```<p class= "mi-texto">```
+
 
