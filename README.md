@@ -467,6 +467,65 @@ con **querySelector** modificando contenido de un elemento "p" a traves de la cl
     textonuevo.textContent = "Esto es un parrafo logrado desde una funcion.";
     })
 ```
+<hr>
+
+# JASON
+<hr>
+
+**JSON (notación de objetos javascript)** es un formato de intercambio de datos. 
+JSON es capaz de representar números, valores lógicos, cadenas, valores nulos, arreglos y matrices (secuencias ordenadas de valores) y objetos (mapas de cadena de valores) compuestos de estos valores (o de otras matrices y objetos).
+
+<h1>Para que se usa?</1>
+
+- El formato JSON se utiliza para serializar y transmitir datos estructurados a través de una conexión de red.
+- Se utiliza principalmente para transmitir datos entre un servidor y aplicaciones web.
+- Los servicios web y las API utilizan el formato JSON para proporcionar datos vía internet.
+- Se puede utilizar con los lenguajes de programación y frameworks más actuales como  Typescript, Java, Angular, Spring boot, entre muchos otros.
+
+## Los datos en JSON: un nombre y un valor
+
+Los datos JSON se escriben como pares de nombre / valor, al igual que las propiedades de los objetos de JavaScript. Un par de nombre / valor consta de un nombre de campo (entre comillas dobles), seguido de dos puntos, seguido de un valor:
+```
+ "firstName":"Juana"
+```
+## Los Objetos en JSON:
+
+Los objetos JSON se escriben entre llaves. Al igual que en JavaScript, los objetos pueden contener varios pares de nombre / valor:
+```
+ {"firstName":"Juana", "lastName":"Fernandez"}
+```
+ 
+
+ ## Las Matrices en JSON
+
+Las matrices JSON se escriben entre corchetes. Al igual que en JavaScript, una matriz puede contener objetos, te dejamos un ejemplo de una matriz Empleado con 3 Objetos:
+```
+ "employees":[
+   {"firstName":"Juana", "lastName":"Fernandez"},
+   {"firstName":"Ana", "lastName":"Rntani"},
+   {"firstName":"Francisco", "lastName":"Petrol"}
+ ]
+```
+Enlace para validar formato  [JSON](https://jsongrid.com/json-grid)
+
+## Crea objeto simples de pruebas:
+
+Diversas formas de crear objetos **JSON** usando **javascript** 
+- Creacion de un objeto vacio.
+
+```
+ var JSONObj = {};
+```
+- Creacion de un nuevo objeto.
+```
+ var JSONObj = new Object();
+```
+- Creación de un objeto con atributo nombrelibro con valor en cadena, atributo precio con valor numérico. Se accede al atributo usando '.' Operador -
+```
+ var JSONObj = { "nombrelibro":"El hacedor", "precio":500 };
+```
+
+
 
 
 

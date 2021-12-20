@@ -24,8 +24,24 @@
     
 }
 
+.capa {
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+}
+:hover > .capa {
+    opacity: 1;
+    visibility: visible;
+}
+
 .nombre-titulo-perfil-ft {
     margin-top: -3rem;
     
 }
+
+.icono-social li a:hover {
+    transform: scale(1.1);
+    
+}
+
 
