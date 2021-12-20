@@ -444,4 +444,30 @@ console.log(document.querySelectorAll("div"));
 Una vez que accedemos al elemento podemos modificarlo: en el siguiente caso accedemos a elemento
 con **querySelector** modificando contenido de un elemento "p" a traves de la clase ```<p class= "mi-texto">```
 
+```
+ let mitexto = document.querySelector(".mi-texto");
+ mitexto.textContent="Esto es un parrafo modificado en js a traves de un querySelector al elemento
+ p con clase(mi-texto)";
+
+```
+
+## funcion:
+
+- Se creo una funcion que accede a un boton creando una variable constante **mitexto** y se accede al elemento traves de selector **querySelector** con la clase del boton **btn-info**.
+``` 
+ const mitexto = document.querySelector(".btn-info"); 
+```
+- Luego se crea una variable constante **textonuevo** accediendo con **getElementById** al elemento "p" con su **ID** **concepto** para  luego modificar su contenido por medio de una funcion.
+```
+ const textonuevo = document.getElementById("concepto");
+```
+- se crea la siguiente funcion tomando cada variable y modificando el contenido del elemento "p"
+```
+    mitexto.addEventListener("click", () => {
+    textonuevo.textContent = "Esto es un parrafo logrado desde una funcion.";
+    })
+```
+
+
+
 

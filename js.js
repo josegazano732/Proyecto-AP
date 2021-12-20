@@ -77,6 +77,7 @@ let elementoParrafo = document.createElement("p");
 */
 
 // --------------------------------------------------------
+/*
 let titulo = document.getElementById("encabezado");
 titulo.style.color = "white";
 
@@ -112,9 +113,15 @@ console.log(document.querySelector("section"));
 
 //Se accede a todos los elementos 
 console.log(document.querySelectorAll("div"));
-
+*/
 
 /* Elementos */
 //Se accede a elemento y se modifica.
-let mitexto = document.querySelector(".mi-texto");
-mitexto.textContent = "Esto es un parrafo modificado en js a traves de un querySelector al elemento p con clase (mi-texto) ";
+const mitexto = document.querySelector(".btn-info");
+const textonuevo = document.getElementById("concepto");
+
+//mitexto.textContent = "Esto es un parrafo modificado en js a traves de un querySelector al elemento p con clase (mi-texto) ";
+
+mitexto.addEventListener("click", () => {
+    textonuevo.textContent = "Esto es un parrafo logrado desde una funcion.";
+})
