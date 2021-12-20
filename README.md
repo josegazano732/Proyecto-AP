@@ -525,6 +525,69 @@ Diversas formas de crear objetos **JSON** usando **javascript**
  var JSONObj = { "nombrelibro":"El hacedor", "precio":500 };
 ```
 
+<hr>
+
+# Typescript
+<hr>
+
+<h1>Variable:</h1>
+Una variable es un espacio de memoria que se utiliza para almacenar un valor durante un tiempo (scope) en la ejecución del programa. La misma tiene asociado un tipo de datos y un identificador.
+
+<h1>Sintaxis de la inferencia explicita:</h1>
+
+```
+  <variable>: <tipo de datos>
+```
+
+<h1>Ejemplo inferencia explicita</h1>
+
+```
+  let edad: number; = 42;
+```
+<h1>Ejemplo inferencia implicita</h1>
+
+```
+  let edad = 42;
+  
+```
+
+**Nota:** Si bien las asociaciones de tipo explícitas son opcionales en TypeScript, se recomiendan dado que permiten una mejor lectura y mantenimiento del código.
+
+Ejemplos:
+ - Abrir VScode y crear un nuevo archivo titulado ejemplo.ts
+ - en dicho archivo , escribir las siguientes declaraciones de variebles.
+
+ ```
+  let a: number; // * Inferencia explicita.
+  let b: string; //* Inferencia explicita.
+  let c = 101;   //* Inferencia implicita.
+
+  c = "one";
+ ```
+  **Nota:** Observa que al posicionar el puntero del mouse sobre la variable c, VSCode abre un tooltip con la declaración explícita “let c:number”
+
+ Pero ¿qué ocurre si intentamos asignar un tipo de datos diferente a la variable c?. 
+
+ ### Analizando otro ejemplo:
+
+```
+  let recursos= ["disco", "Memoria", "ram"];
+```
+<img src= "img/captura-type.png">
+Entonces, si  posicionamos el puntero del mouse sobre la variable “recursos” podemos observar que Typescripts automáticamente entiende por sí solo que se trata de un arreglo del tipo String.
+
+Sin embargo, si luego introducimos en el array un valor de otro tipo, y posicionamos el puntero del mouse sobre la variable recursos, podremos observar que el arreglo admite variables del tipo “string” o (símbolo para “o” es “|”) “number”.
+
+```
+  let recursos = ["disco", "Memoria", 100];
+```
+
+<img src="img/captura-type01.png">
+
+
+
+
+
 
 
 
