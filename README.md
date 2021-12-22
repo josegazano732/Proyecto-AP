@@ -584,6 +584,60 @@ Sin embargo, si luego introducimos en el array un valor de otro tipo, y posicion
 
 <img src="img/captura-type01.png">
 
+<h1>Tipos de datos primitivos</h1>
+Los tipos primitivos son: boolean, number, string, void, null, undefined y enum.
+
+- Sintaxis :
+```
+  let saludo: string=" Hola Mundo";
+```
+TypeScript permite también usar plantillas de cadenas con las que podemos intercalar texto con otras variables:  ${ expr }.
+
+- Ejemplo:
+
+```
+   let nombre: string = "Mateo";
+   let mensaje: string = "Mi nombre es ${nombre}. y soy nuevo en programacion "
+   console.log(mensaje);
+```
+
+## Numero:
+
+```
+   let codigoDeProducto: number = 120;
+```
+## Boolean: *Es un tipo de variable que puede tener solo dos valores, Verdadero (true) o Falso (false).*
+```
+   let estadoDeProducto: boolean = false;
+```
+## Void : *El tipo void existe únicamente para indicar la ausencia de un valor, como por ejemplo en una función que no devuelve ningún valor.*
+
+```
+   function mensajeUsuario() {
+    console.log("Este es un mendaje para el suario");
+
+   }
+
+```
+## Enum: *Las enumeraciones ofrecen una manera sencilla de trabajar con conjuntos de constantes relacionadas. Un elemento enum es un nombre simbólico para un conjunto de valores. Las enumeraciones se tratan como tipos de datos y se pueden usar a fin de crear conjuntos de constantes para su uso con variables y propiedades.*
+
+```
+ enum color {
+    blanco,
+    rojo,
+    amarillo
+ }
+ let colorAuto = color.amarillo;
+ console.log(colorAuto);
+```
+# El uso de enumeraciones:
+- Permite reducir los errores que provoca la transposición o la escritura incorrecta de números.
+- Facilita el cambio de valores en el futuro.
+- Facilita la lectura del código, lo que significa que es menos probable que se produzcan errores en él.
+- Garantiza la compatibilidad con versiones posteriores. Con las enumeraciones, es menos probable que se produzca un error en el código si en el futuro alguien cambia los valores correspondientes a los nombres de miembro.
+
+
+
 
 
 
