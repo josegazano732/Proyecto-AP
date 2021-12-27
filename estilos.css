@@ -35,11 +35,11 @@
 
 }
 
-.capa {
+/*.capa {
     transition: all 500ms ease-out;
     opacity: 0;
     visibility: hidden;
-}
+}*/
 :hover > .capa {
     opacity: 1;
     visibility: visible;
