@@ -1,13 +1,13 @@
 .slider{
-    background-image: url(img/bg-4.jpg);
+   background: #009FFF;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to right, rgba(236, 47, 75, 0.878), rgba(0, 157, 255, 0.124)), url(img/bg-5.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to right, rgba(236, 47, 75, 0.563), rgba(0, 157, 255, 0.282)), url(img/bg-5.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    /*background-image: url(img/bg-4.jpg);*/
     background-size: cover;
     background-position: center;
     height: 550px;
-    border-radius: 8px;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    -ms-border-radius: 8px;
-    -o-border-radius: 8px;
+    
 }
 
 .texto-1 {
@@ -29,9 +29,9 @@
 }
 
 .fondo-s {
-    background: #4568DC;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #B06AB3, #4568DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: rgba(69, 104, 220, 0.686);  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgba(177, 106, 179, 0.419), rgba(69, 104, 220, 0.357));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgba(177, 106, 179, 0.508), rgba(69, 104, 220, 0.364)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
