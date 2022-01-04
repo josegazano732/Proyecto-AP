@@ -1,6 +1,10 @@
+
+
+
+
 .slider{
    background: #009FFF;  /* fallback for old browsers */
-   background: -webkit-linear-gradient(to right, rgb(236, 47, 75), rgba(0, 157, 255, 0.124)), url(img/bg-5.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+   background: -webkit-linear-gradient(to right, rgb(236, 47, 75), rgba(0, 157, 255, 0.638)), url(img/bg-5.jpg);  /* Chrome 10-25, Safari 5.1-6 */
    background: linear-gradient(to right, rgba(236, 47, 75, 0.563), rgba(0, 157, 255, 0.282)), url(img/bg-5.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     /*background-image: url(img/bg-4.jpg);*/
