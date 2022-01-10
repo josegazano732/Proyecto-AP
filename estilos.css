@@ -13,6 +13,10 @@
     height: 550px;
     
 }
+.fondo-gr {
+    background: rgb(9,112,4);
+    background: linear-gradient(72deg, rgba(231, 237, 231, 0.015) 10%, rgba(19,89,12,0.8617646887856705) 27%, rgba(26,125,2,1) 43%, rgba(37,158,27,0.8281512434075192) 83%, rgba(173,219,166,0.7833333162366509) 92%); 
+}
 
 .texto-1 {
     font-family: 'Parisienne', cursive;
