@@ -1,3 +1,17 @@
+let miTrabajo = document.querySelector("#lugarTrabajo")
+console.log(miTrabajo);
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 function saludar() {
     document.getElementById("titulo").innerHTML = "Buenos dias Estudiantes!";
@@ -36,7 +50,7 @@ let resultado = personas.find(x => x.Edad >= 36);
 //let resultado = nombres.filter(x => x.length > 3);"Filtra los string que son mayo a 3 en su longitud"
 //let resultado = arreglo.filter(x => x >= 10); "Filtra nros mayor o igual a 10"
 //let resultado = arreglo.filter(x => x % 2 === 0); "Filtra los nros que son resto de 2"
-//let resultado = arreglo.includes(9); "Se filtro si dicho nro se encuentra en la lista array" 
+//let resultado = arreglo.includes(9); "Se filtro si dicho nro se encuentra en la lista array"
 
 //function funcion(value) {
 //  return value % 3 === 0;
@@ -111,17 +125,17 @@ console.log(document.querySelector(".caracteristicas"));
 //Se accede a un elemento por su propio nombre ejemplo "section".
 console.log(document.querySelector("section"));
 
-//Se accede a todos los elementos 
+//Se accede a todos los elementos
 console.log(document.querySelectorAll("div"));
 */
 
 /* Elementos */
 //Se accede a elemento y se modifica.
-const mitexto = document.querySelector(".btn-info");
-const textonuevo = document.getElementById("concepto");
+//const mitexto = document.querySelector(".btn-info");
+//const textonuevo = document.getElementById("concepto");
 
 //mitexto.textContent = "Esto es un parrafo modificado en js a traves de un querySelector al elemento p con clase (mi-texto) ";
 
-mitexto.addEventListener("click", () => {
-    textonuevo.textContent = "Esto es un parrafo logrado desde una funcion.";
-})
+//mitexto.addEventListener("click", () => {
+//    textonuevo.textContent = "Esto es un parrafo logrado desde una funcion.";
+//})
