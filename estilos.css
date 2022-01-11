@@ -81,4 +81,24 @@ footer {
     
 }
 
+/* Estilos para section Educacion */
+
+.container-edu {
+    /* Content is center horizontally */
+    align-items: center;
+    display: flex;
+
+    /*
+The property name will stick to the left, and the value
+will stick to the right
+*/
+    justify-content: space-between;
+
+    border-bottom: 1px solid rgba(35, 4, 97, 0.508);
+
+    /* Spacing */
+    margin: 0px;
+    padding: 8px 0px;
+}
+
 
