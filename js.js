@@ -1,16 +1,20 @@
-let miTrabajo = document.querySelector("#lugarTrabajo")
-console.log(miTrabajo);
+//let miTrabajo = document.querySelector("#lugarTrabajo")
+//console.log(miTrabajo);
 
+// Boton Editar
+const titulo = document.getElementById('edit-titulo')
+const btnEditar = document.getElementById('btn-editar')
 
+console.log(btnEditar)
+console.log(titulo)
 
+btnEditar.addEventListener('click', (e) => {
+  e.preventDefault;
+  let modificador = prompt('Modificar lugar de trabajo:').value;
+  alert(modificador);
 
-
-
-
-
-
-
-
+  titulo.innerHTML("modificador");
+})
 
 /*
 function saludar() {
