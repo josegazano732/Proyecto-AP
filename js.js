@@ -4,6 +4,7 @@
 // Boton Editar
 const titulo = document.getElementById('edit-titulo');
 const btnEditar = document.getElementById('btn-editar');
+const resultado= "";
 
 
 console.log(btnEditar)
@@ -11,9 +12,11 @@ console.log(titulo)
 
 btnEditar.addEventListener('click', (e) => {
   e.preventDefault();
-  let modificador = prompt('Modificar lugar de trabajo:').value;
- console.log(modificador);
-  titulo.innerHTML= titulo(value);
+  let modificador = prompt('Modificar lugar de trabajo:');
+		
+  console.log(modificador);
+		titulo.innerHTML = modificador;
+  //titulo.innerHTML= modificador;
 })
 
 /*
